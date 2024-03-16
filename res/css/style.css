@@ -1,0 +1,615 @@
+body {
+	background-color: #fff;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: BebasNeueRegular;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #ED7A08;
+}
+
+.container {
+	padding-left: 100px;
+	padding-right: 100px;
+
+/*	width: 800px;
+	margin: auto;*/
+
+}
+
+header {
+	position: fixed;
+	/*background-color: rgba(28, 25, 25, .5);*/
+	/*background-color: rgba(255,255,255,.5);*/
+	width: calc(100% - 200px);
+	padding: 10px 0;
+
+	transition: background-color .5s ease;
+	z-index: 1000;
+
+}
+
+header.opaque {
+	background-color: rgba(24, 94, 69, .8);
+}
+
+#logo {
+	float: left;
+	height: 80px;
+	margin-right: 50px;
+	font-size: 50px;
+	line-height: 130px;
+}
+#logo img {
+	float: left;
+	margin-right: 20px;
+	width: 65px;
+}
+
+#logo a {
+	color: #fff;
+}
+
+header nav li {
+	float: left;
+	padding: 0 20px;
+}
+
+header nav a {
+	display: block;
+	float: left;
+	padding-top: 40px;
+	height: 50px;
+}
+
+
+
+
+
+footer {
+	background-color: #0B5442;
+	height: 50px;
+	margin-top: 20px;
+}
+
+
+/*h2 {
+	font-size: 28px;
+	color: #fff;
+	font-weight: 900;
+	line-height: 1.3;
+	text-align: center;
+}*/
+
+
+
+#home {
+	background-image: url(../img/hotelRoom.jpg);
+
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#home {
+	padding-top: 200px;
+	padding-left: 200px;
+	/*width: 710px;*/
+
+}
+
+#home > div {
+	width: 710px;
+	margin: auto;
+}
+
+#home p {
+	font-size: 20px;
+	line-height: 25px;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+#home h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#home h1 + p {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+#home strong {
+	font-weight: bolder;
+	border-bottom: 2px solid #ED7A08;
+}
+
+
+
+
+#homePage #benefits {
+	background-color: #0B5442;
+	background-image: url(../img/benefits-bg.png);
+	background-position: right;
+	background-size: 40% auto;
+	background-repeat: no-repeat;
+
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: left;
+	overflow: hidden;
+	height: auto;
+}
+
+
+#benefits {
+	background-color: #0B5442;
+	background-image: url(../img/benefits-bg.png);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	padding-bottom: 40px;
+	text-align: left;
+	overflow: hidden;
+
+	
+	height: 70vh;
+}
+
+
+#advantages {
+	background-color: #0B5442;
+	background-image: url(../img/advantages-bg.png);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	padding-bottom: 40px;
+	text-align: left;
+	overflow: hidden;
+
+	
+	height: 70vh;
+
+	border-bottom: 15px solid #EE7C08;
+}
+
+
+#contact {
+	background-color: #0B5442;
+	background-image: url(../img/contact-bg.png);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	padding-bottom: 40px;
+	text-align: left;
+	overflow: hidden;
+
+	
+	height: 70vh;
+}
+
+#contact h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 300px;
+	margin-bottom: 30px;
+}
+
+
+#benefits h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 300px;
+	margin-bottom: 30px;
+}
+
+#benefits h1 a {
+	border-bottom: 2px solid #ED7A08;
+}
+
+
+#benefits p {
+	text-transform: uppercase;
+	margin-left: -15px;
+}
+
+#benefits p::first-letter {
+	font-size: 210px;
+	line-height: 150px;
+	float: left;
+}
+
+#benefits p strong {
+	display: block;
+	font-weight: bolder;
+	text-indent: -35px;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 7px;
+}
+
+#benefits p #imagine {
+	display: block;
+	text-indent: -35px;
+	font-size: 30px;
+}
+
+#benefits #times {
+	font-size: 90px;
+	display: block;
+	line-height: 70px;
+}
+
+
+#advantages h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 300px;
+	margin-bottom: 30px;
+}
+
+#advantages li, #advantages p {
+	margin-bottom: 20px;
+}
+#advantages p {
+	width: 450px;
+}
+
+#advantages .adv {
+	text-transform: uppercase;
+	color: #ED7A08;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+h2 a {
+	border-bottom: 2px solid #ED7A08;
+}
+
+#homePage #benefits p {
+	text-transform: uppercase;
+	margin-left: -15px;
+}
+
+#homePage #benefits p::first-letter {
+	font-size: 210px;
+	line-height: 150px;
+	float: left;
+}
+
+#homePage #benefits p strong {
+	display: block;
+	font-weight: bolder;
+	text-indent: -35px;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 7px;
+}
+
+#homePage #benefits p #imagine {
+	display: block;
+	text-indent: -35px;
+	font-size: 30px;
+}
+
+#homePage #benefits #times {
+	font-size: 90px;
+	display: block;
+	line-height: 70px;
+}
+
+
+#benefitsList #listOnly {
+	background-color: #EE7C08;
+	text-align: center;
+	counter-reset: benefitsCounter1;
+	width: 100%;
+}
+#benefitsList #listOnly li {
+	display: inline-block;
+	counter-increment: benefitsCounter1;
+	position: relative;
+}
+#benefitsList #listOnly li::before {
+	content: counter(benefitsCounter1);
+	font-size: 120px;
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+}
+
+#benefitsList #listOnly li:hover::before {
+	visibility: hidden;
+}
+
+#benefitsList #listOnly li a {
+	border: blue;
+	display: table-cell;
+	width: 120px;
+	height: 120px;
+	visibility: hidden;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+#benefitsList #listOnly li:hover a {
+	visibility: visible;
+	background-color: #fff;
+	color: #EE7C08;
+}
+
+#benefitDetails {
+	color: #000;
+	margin-top: 30px;
+}
+
+.benefitsIntro::before {
+	content: '?';
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	font-size: 300px;
+	color: #CFD1D4;
+	font-weight: bolder;
+	line-height: 200px;
+
+}
+
+.benefitsIntro {
+	position: relative;
+	font-size: 40px;
+	color: #EE7C08;
+	float: left;
+	width: 50%;
+	padding-left: 170px;
+	box-sizing: border-box;
+}
+
+#benefitDetails ol {
+
+	counter-reset: benefitsCounter2;
+}
+
+#benefitDetails li {
+	counter-increment: benefitsCounter2;
+	width: 50%;
+	margin-bottom: 20px;
+	padding-left: 30px;
+	float: left;
+	color: #0B5442;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+#benefitDetails li::before {
+	content: counter(benefitsCounter2);
+	font-size: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: #EE7C08;
+	color: #fff;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#benefitDetails h2 {
+	margin: 0;
+	font-size: 45px;
+	line-height: 1.1em;
+}
+#benefitDetails img {
+	float: right;
+	width: 35%;
+	clear: left
+
+}
+#benefitDetails li p {
+	margin-top: 20px;
+	line-height: 1.4em;
+	width: 60%;
+	clear: left;
+}
+
+#benefitDetails li a {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+    height: 0;
+}
+
+#advantagesDetails {
+	color: #000;
+}
+
+#advantagesDetails ul {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 30px;
+	line-height: 1.4em;
+	text-align: center;
+}
+#advantagesDetails ul .span2 {
+	grid-column: span 2;
+	grid-row: span 2;
+	text-align: center;
+}
+
+
+
+#advantagesDetails li:before {
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	margin-left: -25px;
+	background-color: #fff;
+
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+#advantagesDetails .ico-1:before {
+	content: url(../img/adv/ico-1.svg);
+}
+#advantagesDetails li.ico-2:before {
+	content: url(../img/adv/ico-2.svg);
+}
+#advantagesDetails li.ico-3:before {
+	content: url(../img/adv/ico-3.svg);
+}
+#advantagesDetails li.ico-4:before {
+	content: url(../img/adv/ico-4.svg);
+}
+#advantagesDetails li.ico-5:before {
+	content: url(../img/adv/ico-5.svg);
+}
+#advantagesDetails li.ico-6:before {
+	content: url(../img/adv/ico-6.svg);
+}
+#advantagesDetails li.ico-7:before {
+	content: url(../img/adv/ico-7.svg);
+}
+#advantagesDetails li.ico-8:before {
+	content: url(../img/adv/ico-8.svg);
+}
+#advantagesDetails li.ico-9:before {
+	content: url(../img/adv/ico-9.svg);
+}
+#advantagesDetails li.ico-10:before {
+	content: url(../img/adv/ico-10.svg);
+}
+
+
+#advantagesDetails li:not(.span2) {
+	margin-top: 30px;
+	border-top: 2px solid #888;
+	padding-top: 30px;
+	position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	#logo {
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.container {
+		padding: 10px;
+	}
+
+	header {
+		width: calc(100% - 20px);
+	}
+
+	nav {
+		float: right;
+		overflow: hidden;
+	}
+
+	header nav li {
+		padding: 0 10px;
+		float: none;
+	}
+	header nav li a{
+		height: 20px;
+		padding-top: 10px;
+	}
+
+	#mainMenu {
+		visibility: hidden;
+		position: absolute;
+		top: 112px;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0,0,.8);
+	}
+
+	h1 {
+		font-size: 20px !important;
+	}
+
+	#home {
+		width: auto;
+		padding-left: 10px;
+	}
+
+	#home > div {
+		width: 100%;
+	}
+
+
+	#homePage #benefits, #benefits, #contact {
+		background-image: none;
+	}
+
+	#homePage #benefits {
+		padding: 30px;
+	}
+
+	#benefits {
+		height: 60vh;
+		padding: 30px;
+	}
+
+	#benefits h1 {
+		margin-top: 170px;
+		font-size: 70px !important;
+	}
+
+	.benefitsIntro {
+		float: none;
+		width: auto;
+	}
+
+	#benefitDetails li {
+		float: none;
+		width: 100%;
+	}
+
+	#benefitDetails img {
+		float: none;
+		width: 100%;
+
+	}
+	#benefitDetails li p {
+		width: 100%;
+		margin-top: -140px;
+	}
+
+}
